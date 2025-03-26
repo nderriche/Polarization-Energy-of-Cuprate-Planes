@@ -3,6 +3,9 @@
 Contains the Python scripts used in the numerical determination of the polarization energy of materials based on the inclusion of both atomic dipoles and bond polarizability induced by covalency between neighbors. Specifically, the scripts are focused on the CuO<sub>2</sub> planes within cuprate superconductors, which are known to host the important superconducting physics for these high-temperature superconductors. Of course, this code can be adapted to other materials with different structures and constituents; modifying the clearly labelled constants and methods within the files in this repository will allow one to do so such a thing. This has led to the creation of a manuscript (currently under review) focusing on our novel real space polarization computation scheme, and on the ramifications of its application for understanding the Cooper pairing physics of cuprate superconductors. For more detail, including a thorough breakdown of the math and physics involved in our methodology, please refer to the publicly-accessible preprint of our manuscript below. 
 **[Link to Paper Preprint](https://arxiv.org/abs/2405.00787)**
 
+If you use or are inspired by the contents of this repository, please cite the associated paper like so:\
+**Nassim Derriche and George Sawatzky. Electron-hole polarization supporting short-range pairing in cuprate high-temperature superconductors. arXiv, 2405.00787, May 2024.**
+
 Here is an overall breakdown of the Python scripts included in this repository. They all are structured using code cells containing clear comments explaining the purpose of each section and function, so it is useful to have a look at the contents of the files directly for more detail.
 
 ## 1. [cuprate_polarization.py](cuprate_polarization.py)
